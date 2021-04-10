@@ -1,0 +1,137 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  
+}
+
+body{
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-color:#FFFFFF;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  letter-spacing: 0.05em;
+  color: #00387A;
+  margin: auto;
+}
+
+/* STYLING NAVBAR */
+.navbar {
+  height: 122px;
+  position: relative;
+  z-index: 99;
+}
+
+.navbar-logo {
+  width : 50px;
+  height: 10px;
+  float: left;
+  
+}
+
+.navbar-list li {
+  float: right;
+  list-style: none;
+  padding: 30px 40px;
+  font-size: 20px;
+  line-height: 23px;
+  text-decoration : none;
+  color: #000000;
+}
+
+.navbarbtn{
+  list-style: none;
+  text-decoration : none;
+  color: #000000;
+}
+
+
+
+.dropbtn {
+background-color: #FFB938;
+color: white;
+padding: 16px;
+font-size: 16px;
+border: none;
+cursor: pointer;
+}
+
+.dropdown {
+position: relative;
+display: inline-block;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.dropdown-content a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+.dropdown:hover .dropbtn {
+background-color: #FF9731;
+}
+
+
+/* Frequently Asked Question */
+.main-text h1 {
+  position: absolute;
+  width: 900px;
+  height: 48px;
+  left: 46px;
+  top: 86px; 
+
+  text-align: left;
+  font-size: 64px;
+}
+
+.main-text ul {
+  position: absolute;
+  width: 1300px;
+  left: 46px;
+  top: 200px;
+
+  text-align: left;
+
+}
+
+
+/* STYLING FOOTER */
+.footer {
+  
+position: absolute;
+width: 1442px;
+height: 50px;
+left: -2px;
+top: 770px;
+
+  
+  padding-bottom: 10px;
+
+  background-color: #00387A;
+  color: #FFFFFF;
+}
+
+.footer h3{
+  top: 40px;
+  float: right;
+  padding-right: 24px;
+
+  font-size: 14px;
+}
+
+

@@ -1,0 +1,270 @@
+html, body {
+  max-width: 100%;
+}
+
+body{
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-color:#FFFFFF;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  letter-spacing: 0.05em;
+  color: #00387A;
+  margin: auto;
+}
+
+
+/* STYLING NAVBAR */
+.navbar {
+    height: 122px;
+    position: relative;
+    z-index: 99;
+  }
+  
+  .navbar-logo {
+    width : 50px;
+    height: 10px;
+    float: left;
+  }
+  
+  .navbar-list li {
+    float: right;
+    list-style: none;
+    padding: 30px 40px;
+    font-size: 20px;
+    line-height: 23px;
+    text-decoration : none;
+    color: #000000;
+  }
+  
+  .navbarbtn{
+    list-style: none;
+    text-decoration : none;
+    color: #000000;
+  }
+
+.dropbtn {
+  background-color: #FFB938;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #FF9731;
+}
+
+
+/* STYLING MAIN */
+.main-text{
+  float: right;
+  padding: 20px 0px;
+}
+
+.main-text h1{
+  position: absolute;
+  width: 750px;
+  height: 190px;
+  right: 46px;
+  top: 80px;
+
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 95px;
+  text-align: right;
+
+  color: #333333;
+}
+
+.main-text h2{
+  position: absolute;
+  width: 580px;
+  height: 318px;
+  right: 46px;
+  top: 350px;
+
+  font-size: 24px;
+  line-height: 53px;
+  text-align: right;
+ }
+
+.jumbopict{
+  position: absolute;
+  width: 822px;
+  height: 495px;
+  left: 0px;
+  top: 150px;
+}
+
+form{
+  position: absolute;
+  width: 597px;
+  height: 727px;
+  left: 420px;
+  top: 800px;
+
+  background: #FFFFFF;
+  box-shadow: 0px 4px 100px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+.nama, .Email, .subjek, .pesan, .sendbtn, .kolom-nama, .kolom-Email, .kolom-subjek, .kolom-pesan{
+  position: absolute;
+  font-family: Rounded Mplus 1c;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+} 
+
+.nama{
+  left: 55px;
+  top: 30px;
+  color: #000000;
+}
+
+.Email{
+  left: 55px;
+  top: 140px;
+  color: #000000;
+}
+
+.subjek{
+  left: 55px;
+  top: 250px;
+  color: #000000;
+}
+
+.pesan{
+  left: 55px;
+  top: 360px;
+  color: #000000;
+}
+
+.sendbtn{
+  width: 206px;
+  height: 51px;
+  right: 55px;
+  bottom: 55px;
+  background: #0071B9;
+  border-radius: 30px;
+  text-align: center;
+  color: #FFFFFF;
+  border-style: none;
+}
+
+.sendbtn:hover{
+  background-color: #FFAF36;
+  color: white;
+}
+
+.kolom-nama, .kolom-Email, .kolom-subjek, .kolom-pesan{
+  position: absolute;
+  left: 55px;
+  width: 488px;
+  background: #F1FAFF;
+  border: 1px solid #CFCFCF;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.kolom-nama{
+  height: 40px;  
+  top: 100px;
+}
+
+.kolom-Email{
+  height: 40px;
+  top: 210px;
+}
+
+.kolom-subjek{
+  height: 40px;
+  top: 320px;
+}
+
+.kolom-pesan{
+  height: 155px;
+  top: 430px;
+  resize: none;
+}
+
+.alamat{
+  position: absolute;
+  width: 620px;
+  height: 108px;
+  left: 421px;
+  top: 1619px;
+
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.icon-list{
+  position: absolute;
+  width: 597px;
+  height: 50px;
+  left: 565px;
+  top: 1800px;
+}
+
+.icon{
+	margin: 0 20px 0 20px;
+	outline: none;
+}
+
+
+/* STYLING FOOTER */
+.footer {
+  position: absolute;
+  width: 100%;
+  height: 48px;
+  left: 0px;
+  top: 1874px;
+
+  
+  padding-bottom: 10px;
+
+  background-color: #00387A;
+  color: #FFFFFF;
+}
+
+.footer h3{
+  top: 40px;
+  float: right;
+  padding-right: 24px;
+
+  font-size: 14px;
+}
+
